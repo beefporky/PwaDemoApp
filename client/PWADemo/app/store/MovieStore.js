@@ -6,6 +6,7 @@ Ext.define('PWADemo.store.MovieStore', {
     autoLoad: true,
     proxy: {
         type: 'ajax',
+        //@sw-cache
         url: '/popular-movies',
         reader: {
             type: 'json',

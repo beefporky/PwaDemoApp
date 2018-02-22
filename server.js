@@ -13,7 +13,14 @@ var config = nconf.get();
 //initialize express
 var app = express();
 
-app.use(express.static(__dirname + '/client/PWADemo'));
+
+if (process.env.npm_config_build != 'production') {
+    app.use(express.static(__dirname + '/client/PWADemo'));
+} else {
+    app.use(express.static(__dirname + '/client/PWADemo/build/production/PWADemo'));
+    app.use(express.static(__dirname + '/client/PWADemo/build/production/PWADemo/classic'));
+}
+
 //routes
 app.get('/', function (req, res) {
     res.sendFile(__dirname + path.normalize('/client/PWADemo/index.html'));
@@ -34,5 +41,5 @@ app.get('/popular-movies', function (req, res) {
 });
 
 app.listen(3000, function () {
-    console.log('Server started at ' + new Date());
+    console.log('Server running in port 3000 started at ' + new Date());
 });
