@@ -8,7 +8,7 @@
 Ext.define('PWADemo.view.main.Main', {
     extend: 'Ext.panel.Panel',
     xtype: 'app-main',
-
+    widget: 'app-main',
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
