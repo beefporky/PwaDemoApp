@@ -757,6 +757,8 @@ $include-pwademo-view-main-maincontroller: dynamic(true);;
 $include-pwademo-view-main-mainmodel: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataviewcontroller: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataviewmodel: dynamic(true);;
+$include-pwademo-view-moviewindow-moviewindowcontroller: dynamic(true);;
+$include-pwademo-view-moviewindow-moviewindowmodel: dynamic(true);;
 $output-paths: ("path": "../../modern/resources", "shared": "../../resources");
 
 /* ======================== ETC ======================== */

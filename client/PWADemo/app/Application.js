@@ -25,5 +25,8 @@ Ext.define('PWADemo.Application', {
                 }
             }
         );
+    },
+    launch: function(){
+        _main = PWADemo.view.main.Main;
     }
 });

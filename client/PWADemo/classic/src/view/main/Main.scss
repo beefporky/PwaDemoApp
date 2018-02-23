@@ -85,3 +85,26 @@
     top: 30px;
     right: -24px;
 }
+
+// $panel-header-background-color: #123a3a;
+// $panel-header-font-weight: bold;
+
+@include extjs-panel-ui(
+    $ui: 'default',
+    $ui-header-background-color: #123a3a,
+    $ui-header-border-color: #123a3a,
+    $ui-body-color: #494e4b,
+    $ui-header-font-weight: bold
+);
+
+@include extjs-window-ui(
+    $ui: 'default',
+    $ui-header-background-color: #123a3a,
+    $ui-header-inner-border-color: #123a3a,
+    $ui-border-color: #123a3a,
+    $ui-body-color: #494e4b
+);
+
+p{
+    line-height: 1.6;
+}

@@ -19,9 +19,19 @@ Ext.define('PWADemo.view.moviedataview.MovieDataView',{
         '<tpl for=".">',
             '<div class="movie-item">',
                 '<img src="https://image.tmdb.org/t/p/w185{poster_path}" />',
-                '<br/><span class="movie-title">{title}</span>',
+                '<br/><span class="movie-title">{[this.resolveTitle(values)]}</span>',
             '</div>',
-        '</tpl>'
-    ),
-    itemSelector: 'div.movie-item'
+        '</tpl>',{
+            resolveTitle: function(values){
+                return `${values.title} (${new Date(values.release_date).getFullYear()})`;
+            }
+        }),
+    itemSelector: 'div.movie-item',
+    listeners: {
+        itemclick: function(view, item, record, index, e){
+            Ext.create('widget.moviewindow',{
+                movieData: item
+            }).show();
+        }
+    }
 });

@@ -942,6 +942,9 @@ $include-pwademo-view-main-mainmodel: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataview: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataviewcontroller: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataviewmodel: dynamic(true);;
+$include-pwademo-view-moviewindow-moviewindow: dynamic(true);;
+$include-pwademo-view-moviewindow-moviewindowcontroller: dynamic(true);;
+$include-pwademo-view-moviewindow-moviewindowmodel: dynamic(true);;
 
 
 /* ======================== ETC ======================== */
@@ -1412,3 +1415,11 @@ $current-package: false;
 $current-resource-root: $default-resource-root;
 $relative-image-path-for-uis: $default-resource-path;
 @import '../../../../../classic/src/view/main/Main';
+
+/* including scss file adjacent to ..\..\..\..\..\classic\src\view\moviewindow\MovieWindow.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../classic/src/view/moviewindow/MovieWindow';

@@ -1,0 +1,23 @@
+.movie-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+span.movie-window-title {
+    font-weight: bold;
+}
+
+.movie-details {
+    margin: 1em;
+    display: block;
+}
+
+.movie-window-header {
+    margin: 1em;
+    display: block;
+}
+// $window-body-color: #494e4b;
+$window-body-font-weight: 300;
+$window-body-font-size: 16px;
