@@ -94,7 +94,8 @@
     $ui-header-background-color: #123a3a,
     $ui-header-border-color: #123a3a,
     $ui-body-color: #494e4b,
-    $ui-header-font-weight: bold
+    $ui-header-font-weight: bold,
+    $ui-body-font-weight: 400
 );
 
 @include extjs-window-ui(
@@ -102,7 +103,8 @@
     $ui-header-background-color: #123a3a,
     $ui-header-inner-border-color: #123a3a,
     $ui-border-color: #123a3a,
-    $ui-body-color: #494e4b
+    $ui-body-color: #494e4b,
+    $ui-body-font-weight: 400
 );
 
 p{

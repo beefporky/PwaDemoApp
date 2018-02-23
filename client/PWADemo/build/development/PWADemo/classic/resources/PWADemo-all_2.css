@@ -11559,7 +11559,7 @@ span.movie-title {
     border-color: #d0d0d0;
     color: #494e4b;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
     border-width: 1px;
     border-style: solid;
@@ -11926,7 +11926,7 @@ span.movie-title {
     background: #fff;
     color: #494e4b;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
 }
 /* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/ext/classic/theme-neutral/sass/var/window/Window.scss:581 */
@@ -13175,7 +13175,7 @@ span.movie-title {
     border-color: #5fa2dd !important;
     border-width: 1px !important;
 }
-/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/classic/src/view/main/Main.scss:108 */
+/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/classic/src/view/main/Main.scss:110 */
 p {
     line-height: 1.6;
 }
