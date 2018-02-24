@@ -5,6 +5,10 @@ div.movie-item {
     text-align: center;
 }
 
+div.movie-item:hover {
+    cursor: pointer;
+}
+
 span.movie-title{
     font-weight: bold;
 }

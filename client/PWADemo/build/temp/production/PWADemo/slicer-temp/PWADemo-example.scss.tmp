@@ -942,6 +942,7 @@ $include-pwademo-view-main-mainmodel: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataview: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataviewcontroller: dynamic(true);;
 $include-pwademo-view-moviedataview-moviedataviewmodel: dynamic(true);;
+$include-pwademo-view-moviewindow-movieinfo: dynamic(true);;
 $include-pwademo-view-moviewindow-moviewindow: dynamic(true);;
 $include-pwademo-view-moviewindow-moviewindowcontroller: dynamic(true);;
 $include-pwademo-view-moviewindow-moviewindowmodel: dynamic(true);;

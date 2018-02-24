@@ -1,0 +1,32 @@
+/*
+ * This file contains styling for the Main view.
+ */
+
+/*
+ * Generates a set of style rules for the "navigation" tab UI.
+ */
+ 
+// $panel-header-background-color: #123a3a;
+// $panel-header-font-weight: bold;
+
+@include panel-ui(
+    $ui: 'default',
+    $ui-header-background-color: #123a3a,
+    $ui-header-border-color: #123a3a,
+    $ui-body-color: #494e4b,
+    $ui-header-font-weight: bold,
+    $ui-body-font-weight: 400
+);
+
+@include dialog-ui(
+    $ui: 'default',
+    $ui-header-background-color: #123a3a,
+    $ui-header-inner-border-color: #123a3a,
+    $ui-border-color: #123a3a,
+    $ui-body-color: #494e4b,
+    $ui-body-font-weight: 400
+);
+
+p{
+    line-height: 1.6;
+}

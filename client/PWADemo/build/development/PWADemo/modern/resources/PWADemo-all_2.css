@@ -2680,3 +2680,27 @@ body {
 .x-big .x-tabbar-body-el {
     padding: 0;
 }
+/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/modern/src/view/moviedataview/MovieDataView.scss:1 */
+div.movie-item {
+    display: block;
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/modern/src/view/moviedataview/MovieDataView.scss:9 */
+span.movie-title {
+    font-weight: bold;
+}
+/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/ext/modern/theme-neptune/sass/var/Panel.scss:972 */
+.x-panel-default-boxscroller > .x-boxscroller-body > .x-body-el {
+    border: 0;
+}
+/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/ext/modern/theme-neptune/sass/var/Panel.scss:972 */
+.x-dialog-default-boxscroller > .x-boxscroller-body > .x-body-el {
+    border: 0;
+}
+/* C:/Users/James B/Desktop/AppDev/PwaDemoApp/client/PWADemo/modern/src/view/main/Main.scss:30 */
+p {
+    line-height: 1.6;
+}

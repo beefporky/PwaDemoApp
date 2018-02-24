@@ -9,6 +9,7 @@ Ext.define('PWADemo.view.main.Main', {
     extend: 'Ext.panel.Panel',
     xtype: 'app-main',
     alias: 'widget.app-main',
+    iconCls: 'x-fa fa-film',
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',

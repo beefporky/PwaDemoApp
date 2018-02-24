@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var nconf = require('nconf');
 var request = require('request');
+var formidable = require('formidable');
 
 //load config file
 nconf.env().file({
@@ -37,6 +38,25 @@ app.get('/popular-movies', function (req, res) {
     }
     request(options, function (req2, res2, body) {
         res.send(body);
+    });
+});
+
+app.post('/movie-video', function (req, res) {
+    // console.log(req);
+    var form = new formidable.IncomingForm();
+    form.parse(req, function (err, fields, files) {
+        var movie_id = JSON.parse(fields['movie_id']);
+        const options = {
+            url: 'https://api.themoviedb.org/3/movie/' + movie_id + '/videos?api_key=' + config.API_KEY + '&language=en-US',
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Accept-Charset': 'utf-8'
+            }
+        }
+        request(options, function (req2, res2, body) {
+            res.send(body);
+        });
     });
 });
 

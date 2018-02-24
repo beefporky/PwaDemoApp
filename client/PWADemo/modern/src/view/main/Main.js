@@ -4,14 +4,23 @@
  * added to the Viewport container.
  */
 Ext.define('PWADemo.view.main.Main', {
-    extend: 'Ext.tab.Panel',
+    extend: 'Ext.Panel',
     xtype: 'app-main',
 
     requires: [
         'Ext.MessageBox',
-        'Ext.layout.Fit'
+        'Ext.layout.Fit',
+        'PWADemo.view.moviedataview.MovieDataView'
     ],
-
     controller: 'main',
-    viewModel: 'main'
+    viewModel: 'main',
+    layout: {
+        type: 'card'
+    },
+    title: 'Movie Time',
+    iconCls: 'x-fa fa-film',
+    items: [{
+        xtype: 'moviedataview'
+    }]
+
 });
