@@ -1,0 +1,23 @@
+{
+  "data": {
+    "created": "2018-03-01T05:22:42Z",
+    "email": "james.bungag@gmail.com",
+    "expires": "2023-03-02T00:00:00Z",
+    "name": "jamesnoah",
+    "uuid": "81a61130-9319-40b4-8c3f-2238e75ef534"
+  },
+  "publicKey": {
+    "algorithm": "RSA",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAujyKG+IA5D8Au/nzO+WklmbEsE1AaLGNjg9Wk53M7p9qs2/wwRS6+xPJvCKI/R+eH7zCjutSQUVxP4c2bT/dLiULFqSwsLdPV3PEqpcV22W66GXvtb+6SVa5XCBwns3i9uFSqWiWEe0doS8megRJb4nbIWem0vQyZvsR44Qa+OCUkqWMugpzhtrth+wyj7JIGmBMVaYdh27hINBFB8zuQ9gD6EczV8knGYVh6OHKUWAe1o8vWfi96c+UWxFmBYlGxIOO2kC2V5Q/bZ58xAU8lR5CaZyMLuonuVBuGVI1AvtfSgyXY9ecJ/oJLrwIHs3zN511kGa5sHHecLBHEfpROwIDAQAB"
+  },
+  "signatures": [
+    {
+      "name": "jamesnoah",
+      "uuid": "81a61130-9319-40b4-8c3f-2238e75ef534",
+      "created": "2018-03-01T05:22:44Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "RPMCWSW9Aic\u003d",
+      "signature": "PL6PR1vI/1DZ30cJpUQ/fIi+PvanGaeCl3ZRplbxTdghEvOmjBzj3le+b6DR+mDOKZ2N6CIu7S+dyD29oeM52CmFPCeSbif78OCicrFN4/jJvr2botvXxiDspv3CtKSNKNYaNAF2ixpJQM8qO6/Ghk+EpBGrPIv2D5A47qHKiDh8z6KSJ6A1cJBHipEcBWTWE0RPoFKILIhH+nthBal4GiUkx4WXbNxPOH1iyfadgTPPC5xG6nWhQURha6M3IfSYaUFB0LmDzPHjxcFUzISDrkQZTBzotQokZPhxIJ9IldO52Z0+R9g/nx9avwZ4+E/pR+eMdd46Hpq+JHoE1Ytk9g\u003d\u003d"
+    }
+  ]
+}

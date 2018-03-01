@@ -1,0 +1,32 @@
+$confirm-green: #2fb315;
+$reject-red: #bd1b1b;
+
+@include extjs-button-small-ui(
+    $ui: 'confirm',
+    $background-color: $confirm-green
+);
+
+@include extjs-button-medium-ui(
+    $ui: 'confirm',
+    $background-color: $confirm-green
+);
+
+@include extjs-button-large-ui(
+    $ui: 'confirm',
+    $background-color: $confirm-green
+);
+
+@include extjs-button-small-ui(
+    $ui: 'reject',
+    $background-color: $reject-red
+);
+
+@include extjs-button-medium-ui(
+    $ui: 'reject',
+    $background-color: $reject-red
+);
+
+@include extjs-button-large-ui(
+    $ui: 'reject',
+    $background-color: $reject-red
+);

@@ -1,0 +1,58 @@
+{
+  "name": "my-theme",
+  "namespace": "MyTheme",
+  "format": "1",
+  "version": "1.0.0",
+  "creator": "jamesnoah",
+  "summary": "Short summary",
+  "detailedDescription": "Long description of package",
+  "type": "theme",
+  "extend": "theme-triton",
+  "requires": [
+    "ext"
+  ],
+  "signatures": [
+    {
+      "name": "jamesnoah",
+      "uuid": "81a61130-9319-40b4-8c3f-2238e75ef534",
+      "created": "2018-03-01T05:41:36Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "M5AXr7ELfBI\u003d",
+      "signature": "QrReU6h+ymi8kxJKDLP4zL2zFPfrbcZmA7y+82wAn4s4saU/xmIGokuaOjdDS5DBQ6uQbtxrcV+V81+kaKC6MTbgad0tfeiZ+3clwmIAQSqjp20u3kbnt/9t0ItzngX2AxHZ/1LicDqPOWxUzzFgKQ3mpRZpb1spIVWrj9sYz8bHRBqkHoQBc337m6/x4goEmsJfGwcGVjeZt0GtkEOSdlMZ8R3feGJ9j1kkR2gle7diaF6AtvzxHz9BYctaZm+tDlyx8Tma8/GCG2KbaO8kYL8GmxjBIVRu6Mf/08lHjSfEmgtk2QTXbhknC9xz7vtb0GhcEGdBak4ADS4EDbKdOA\u003d\u003d"
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "output": "${package.dir}/build",
+  "sass": {
+    "namespace": "Ext",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src"
+    ]
+  },
+  "classpath": [
+    "${package.dir}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides"
+  ],
+  "example": {
+    "path": [
+      "${package.dir}/examples"
+    ]
+  },
+  "framework": "ext"
+}

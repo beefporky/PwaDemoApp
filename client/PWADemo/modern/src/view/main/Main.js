@@ -17,7 +17,7 @@ Ext.define('PWADemo.view.main.Main', {
     layout: {
         type: 'card'
     },
-    title: 'Movie Time',
+    title: 'Watch Me Now',
     iconCls: 'x-fa fa-film',
     items: [{
         xtype: 'moviedataview'

@@ -19,7 +19,7 @@ Ext.define('PWADemo.view.main.Main', {
     ],
     controller: 'main',
     viewModel: 'main',
-    title: 'Movie Time',
+    title: 'Watch Me Now',
     scrollable: true,
     items: [{
         xtype: 'moviedataview'

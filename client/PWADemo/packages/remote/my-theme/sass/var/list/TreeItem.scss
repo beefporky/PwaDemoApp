@@ -1,0 +1,28 @@
+$background-color: lighten(#1f2e2179,10%);
+$item-color: #ffffff;
+$icon-color: #3caf2d;
+$item-over-color: #000;
+
+//tree list theme variable modifications
+$treelist-item-color: $item-color;
+$treelist-background-color: $background-color;
+$treelist-color: $item-color;
+$treelist-item-icon-color: $icon-color;
+$treelist-item-line-height: 2.5em;
+$treelist-item-expander-color: $item-color;
+$treelist-item-expander-over-color: $item-over-color;
+$treelist-item-text-font-size: 1.1em;
+
+//mixin below doesn't seem to be working
+//possibly a bug but if persistent, move sass variables to the component's sass file in the application level.
+// @include treelist-ui(
+//     $ui: 'mynav',
+//     $treelist-item-color: $item-color,
+//     $treelist-background-color: $background-color,
+//     $treelist-color: $item-color,
+//     $treelist-item-icon-color: $icon-color,
+//     $treelist-item-line-height: 2.5em,
+//     $treelist-item-expander-color: $item-color,
+//     $treelist-item-expander-over-color: $item-over-color,
+//     $treelist-item-text-font-size: 1.1em
+// );
